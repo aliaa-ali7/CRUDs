@@ -1,0 +1,70 @@
+#blog .inner{
+    overflow: hidden !important;
+}
+#blog .inner img{
+    transition: all 1.5s ease !important;
+}
+#blog .card:hover img{
+    transform: scale(1.1) !important;   
+}
+/* /////  services  ////// */
+#services, #clients , #blog {
+    background-color: #f7f7f7;
+    position: relative;
+    /* z-index: -99; */
+}
+.dot,
+.dott,
+.dot-c{
+    position: absolute;
+    left: 50%;
+    top: 55px;
+    background: url(../img/dots.png) center repeat;
+    background-size: 5% ;
+    z-index: -1;
+    height: 4%;
+    width: 19%;
+    
+    }
+    .dott{
+        background-size: 3% ;
+        top: 65px;
+        width: 28%;
+        height: 6%;
+    }
+    .dot-c{
+        width: 28%;
+        background-size: 4%
+    }
+    
+ .card-i{
+    font-size: 25px;
+    background-color: rgb(230, 227, 227);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 0.5s;
+}
+#services h5{
+    padding: 15px 0px;
+    font-weight: 700;
+}
+#services .card-body:hover .card-i,
+#contact .div1:hover .card-i{
+    color: #fff !important;
+    background-color: #000;
+}
+#services .card{
+    box-shadow: 5px  5px 7px rgb(233, 232, 232);
+    border: none;
+    padding: 30px 0px;
+}
+#services p{
+    color: rgb(136, 134, 134);
+}
+ 
